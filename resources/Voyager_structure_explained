@@ -1,0 +1,12 @@
+Voyager structure
+
+MAIN.PY
+This code defines the main entry point for a command-line interface (CLI) tool. The key components involve setting up a Click-based CLI and registering pipeline stages as subcommands (see pipeline below). 
+Main Command: main is the top-level command, registered through decorator @register_command. It takes one argument : A MainConfig object, containing configuration settings for the tool. (see config.py below)
+Subcommands: Pipeline stages (discovered from STAGES) are added as subcommands to main through register_subcommand (a click function)
+
+CONFIG.PY
+the class MainConfig serves as the global configuration for the entire tool. It extends Config (standard click class). Specialized configurations (classes ExtractRoleMetadataConfig, CloneConfig, ExtractStructuralModelsConfig) extend MainConfig to add options for specific tasks, such as cloning repositories or extracting metadata.
+
+PIPELINE
+
