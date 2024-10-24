@@ -1,0 +1,4 @@
+class _ConfigOption(NamedTuple):
+    name: str
+    type_: _OptionType
+    option: Option[_OptionType]
