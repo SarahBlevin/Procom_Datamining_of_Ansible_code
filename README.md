@@ -17,11 +17,8 @@ Inside the Voyager folder:
 
 5) main is ready to run ! for arguments, see https://github.com/ROpdebee/Voyager/blob/master/README.md
 
-```poetry shell```
-
 ```poetry run -- python main.py```
 
   ## Tests
-  ```poetry shell```
 
   ```poetry run pytest --assert=plain``` Most of tests work but error importing voyager modules
