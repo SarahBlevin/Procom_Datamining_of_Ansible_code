@@ -9,16 +9,15 @@ Inside the Voyager folder:
 2) change class _ConfigOption in util/cli.py (see resources/util_changes.txt)
 3) run following commands in a Linux terminal:
 
-rm poetry.lock
+```rm poetry.lock```
 
-poetry lock
+```poetry lock```
 
-poetry install 
-// issue: init files in voyager not found
+```poetry install``` // issue: modules in voyager not found
 
 5) main is ready to run ! for arguments, see https://github.com/ROpdebee/Voyager/blob/master/README.md
 
-  poetry run -- python main.py
+  ```poetry run -- python main.py```
 
   ## Tests
 
