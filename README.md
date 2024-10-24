@@ -17,7 +17,9 @@ Inside the Voyager folder:
 
 5) main is ready to run ! for arguments, see https://github.com/ROpdebee/Voyager/blob/master/README.md
 
-  ```poetry run -- python main.py```
+```poetry shell```
+
+```poetry run -- python main.py```
 
   ## Tests
 
