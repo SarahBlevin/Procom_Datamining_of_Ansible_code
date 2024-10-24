@@ -8,10 +8,13 @@ Inside the Voyager folder:
 1) change file pyproject.toml (see resources/toml_changes.txt)
 2) change class _ConfigOption in util/cli.py (see resources/util_changes.txt)
 3) run following commands in a Linux terminal:
+
 rm poetry.lock
+
 poetry lock
+
 poetry install --no-root
 
-4) main is ready to run ! for arguments, see https://github.com/ROpdebee/Voyager/blob/master/README.md
+5) main is ready to run ! for arguments, see https://github.com/ROpdebee/Voyager/blob/master/README.md
 
   poetry run -- python main.py
