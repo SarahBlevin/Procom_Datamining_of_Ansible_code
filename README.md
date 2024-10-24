@@ -22,5 +22,6 @@ Inside the Voyager folder:
 ```poetry run -- python main.py```
 
   ## Tests
+  ```poetry shell```
 
   ```poetry run pytest --assert=plain``` Most of tests work but error importing voyager modules
