@@ -13,7 +13,8 @@ rm poetry.lock
 
 poetry lock
 
-poetry install --no-root
+poetry install 
+// issue: init files in voyager not found
 
 5) main is ready to run ! for arguments, see https://github.com/ROpdebee/Voyager/blob/master/README.md
 
