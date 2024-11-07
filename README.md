@@ -13,6 +13,8 @@ Inside the Voyager folder:
 
 ```poetry lock```
 
+```poetry shell```
+
 ```poetry install``` // issue: modules in voyager not found
 
 5) main is ready to run ! for arguments, see https://github.com/ROpdebee/Voyager/blob/master/README.md
